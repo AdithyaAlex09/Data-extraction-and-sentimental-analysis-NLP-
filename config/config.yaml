@@ -1,0 +1,33 @@
+stopwords_files:
+  - 'stopwords/StopWords_Auditor.txt'
+  - 'stopwords/StopWords_Currencies.txt'
+  - 'stopwords/StopWords_DatesandNumbers.txt'
+  - 'stopwords/StopWords_Generic.txt'
+  - 'stopwords/StopWords_GenericLong.txt'
+  - 'stopwords/StopWords_Geographic.txt'
+  - 'stopwords/StopWords_Names.txt'
+
+master_dictionary:
+  positive_words: 'master_dictionary/positive-words.txt'
+  negative_words: 'master_dictionary/negative-words.txt'
+
+syllables_directory: 
+  directory: 'syllable_count_per_word'
+
+analysislog_file:
+  log_directory: "logs"
+  log_file: "logs/analysis.log"
+
+scraping:
+  url_details: "data/input.xlsx"
+  output_directory: "data/processed"
+  log_directory: "logs"
+  log_file: "logs/scraper.log"
+
+submission_directory:
+  finaloutput_directory: 'output\Output Data Structure.xlsx'
+
+logging:
+  level: "INFO"
+
+
